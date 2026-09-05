@@ -302,3 +302,166 @@ main > div {
 
 
 
+#opening-hours {
+    width: 92%;
+    margin: 25px auto;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: #e2cfbd;
+    border: 2px solid #704936;
+    border-radius: 16px;
+    box-shadow: 0 7px 18px rgba(76, 48, 35, 0.12);
+    text-align: center;
+}
+
+#opening-hours h2 {
+    margin: 0 0 18px;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 28px;
+    color: #542f22;
+}
+
+#opening-hours table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fffaf4;
+    border: 1px solid #8a6049;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+#opening-hours th {
+    padding: 10px;
+    background-color: #704936;
+    color: #fffaf4;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#opening-hours td {
+    padding: 8px;
+    color: #634538;
+    font-size: 12px;
+    border-bottom: 1px solid #dfcbbb;
+}
+
+#opening-hours tr:last-child td {
+    border-bottom: none;
+}
+
+#opening-hours tbody tr:hover {
+    background-color: #f1e3d5;
+}
+
+#opening-hours td:last-child {
+    color: #6b503e;
+    font-weight: 600;
+}
+
+.visit-us {
+    margin: 16px 0 0;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 14px;
+    color: #704936;
+}
+
+
+#contact-us {
+    width: 92%;
+    margin: 25px auto;
+    display: flex;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.contact-card,
+.order-card {
+    flex: 1;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: #e2cfbd;
+    border: 2px solid #704936;
+    border-radius: 16px;
+    box-shadow: 0 7px 18px rgba(76, 48, 35, 0.12);
+}
+
+.contact-card h2,
+.order-card h2 {
+    margin: 0 0 18px;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 25px;
+    color: #542f22;
+}
+
+.contact-card input[type="text"],
+.contact-card input[type="email"] {
+    width: 100%;
+    padding: 11px 13px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    background-color: #fffaf4;
+    border: 1px solid #a98268;
+    border-radius: 8px;
+    outline: none;
+    font-size: 13px;
+    color: #542f22;
+}
+
+.contact-card input:focus {
+    border-color: #704936;
+}
+
+.contact-card button,
+.order-card button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #704936;
+    color: #fffaf4;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.contact-card button:hover,
+.order-card button:hover {
+    background-color: #542f22;
+}
+
+.order-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.order-card label {
+    margin: 7px 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #634538;
+}
+
+.order-card input[type="radio"] {
+    accent-color: #704936;
+    margin-right: 7px;
+}
+
+.order-card button {
+    width: fit-content;
+    margin-top: 15px;
+}
+
+
+footer {
+    padding: 18px;
+    text-align: center;
+    background-color: #542f22;
+    color: #e2cfbd;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+footer p {
+    margin: 0;
+}
