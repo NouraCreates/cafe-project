@@ -8,7 +8,7 @@ html,
 body {
     height: 100%;
     width: 100%;
-    background-color: #e9c3c3;
+    background-color: #f3e5d8;
 }
 
 main {
@@ -182,4 +182,123 @@ main > div {
     transform: translateY(-7px);
     box-shadow: 0 12px 25px rgba(90, 52, 40, 0.22);
 }
+
+
+
+
+
+.menu-story {
+    display: flex;
+    width: 92%;
+    margin: 25px auto;
+    background-color: #e2cfbd;
+    border: 2px solid #76503d;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 7px 20px rgba(84, 47, 34, 0.18);
+}
+
+#menu {
+    width: 60%;
+    padding: 25px 20px;
+    box-sizing: border-box;
+    background-color: #f3e3d2;
+    border-right: 2px solid #9a765f;
+}
+
+.menu-title {
+    margin: 0 0 18px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 28px;
+    color: #542f22;
+    letter-spacing: 1px;
+}
+
+.menu-container {
+    display: flex;
+    gap: 12px;
+    align-items: stretch;
+}
+
+.menu-section {
+    flex: 1;
+    padding: 13px 10px;
+    background-color: #dac9b4;
+    border: 1px solid #8a6049;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(84, 47, 34, 0.1);
+    transition: 0.3s ease;
+}
+
+.menu-section:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 7px 16px rgba(84, 47, 34, 0.18);
+}
+
+.menu-section h2 {
+    margin: 0 0 8px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #c9ad97;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 17px;
+    color: #542f22;
+    text-align: center;
+}
+
+.menu-section ul {
+    margin: 0;
+    padding-left: 17px;
+}
+
+.menu-section li {
+    margin: 4px 0;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #6b4535;
+}
+
+#our-story {
+    width: 40%;
+    padding: 25px 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 18px;
+    background-color: #e2cfbd;
+}
+
+#our-story h2 {
+    margin: 0 0 7px;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 18px;
+    color: #542f22;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#our-story h2::before {
+    content: "✦";
+    display: block;
+    margin-bottom: 5px;
+    font-size: 11px;
+    color: #8a6049;
+}
+
+#our-story p {
+    margin: 0;
+    max-width: 125px;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    line-height: 1.5;
+    color: #6b4535;
+}
+
+#our-story hr {
+    display: none;
+}
+
+
 
