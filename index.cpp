@@ -33,5 +33,23 @@ int main() {
 
          cout << 0b110 << endl;
 
+
+         // largest of two numbers
+
+              if(2<8) {
+          cout << 8 << endl;
+     }
+
+
+     // Check Even or Odd
+
+     int n = 6;
+     if(n % 2 == 0) {
+        cout << n << " is even" << endl;
+     }
+     else {
+        cout << n << "is odd" << endl;
+     }
+
     return 0;
 }
