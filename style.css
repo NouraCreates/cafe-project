@@ -465,3 +465,357 @@ footer {
 footer p {
     margin: 0;
 }
+
+
+@media (max-width: 375px) {
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 18px 15px;
+        text-align: center;
+    }
+
+    main > img {
+        width: 65px;
+        height: 65px;
+        margin: 0 0 8px 0;
+    }
+
+    main > div {
+        width: 100%;
+        align-items: center;
+    }
+
+    .heading1 {
+        font-size: 30px;
+        line-height: 1.1;
+    }
+
+    .heading2 {
+        margin-top: 6px;
+        font-size: 12px;
+        line-height: 1.4;
+    }
+
+    .links {
+        width: 100%;
+        margin: 18px 0 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px 16px;
+    }
+
+    .links a {
+        font-size: 12px;
+    }
+
+    .Banner {
+        height: 330px;
+    }
+
+    .banner-text {
+        width: 92%;
+    }
+
+    .banner-text span {
+        font-size: 10px;
+        letter-spacing: 3px;
+        margin-bottom: 10px;
+    }
+
+    .banner-text h1 {
+        font-size: 30px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+    }
+
+    .banner-text p {
+        font-size: 15px;
+    }
+
+    .banner-text::after {
+        margin-top: 18px;
+    }
+
+    .featured-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 25px 18px;
+    }
+
+    .item {
+        width: 100%;
+        max-width: 340px;
+    }
+
+    .item img {
+        height: 190px;
+    }
+
+    .item h3 {
+        font-size: 20px;
+    }
+
+    .menu-story {
+        flex-direction: column;
+        width: 92%;
+        margin: 22px auto;
+    }
+
+    #menu {
+        width: 100%;
+        padding: 22px 15px;
+        border-right: none;
+        border-bottom: 2px solid #9a765f;
+    }
+
+    .menu-title {
+        font-size: 25px;
+    }
+
+    .menu-container {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .menu-section {
+        width: 100%;
+    }
+
+    #our-story {
+        width: 100%;
+        padding: 25px 18px;
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+    }
+
+    #our-story h2 {
+        white-space: normal;
+        font-size: 20px;
+    }
+
+    #our-story p {
+        max-width: 280px;
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+    #opening-hours {
+        width: 92%;
+        padding: 20px 10px;
+        margin: 22px auto;
+    }
+
+    #opening-hours h2 {
+        font-size: 25px;
+    }
+
+    #opening-hours table {
+        width: 100%;
+    }
+
+    #opening-hours th,
+    #opening-hours td {
+        padding: 8px 3px;
+        font-size: 10px;
+    }
+
+    .visit-us {
+        font-size: 13px;
+    }
+
+    #contact-us {
+        width: 92%;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .contact-card,
+    .order-card {
+        width: 100%;
+        padding: 22px 18px;
+    }
+
+    .contact-card h2,
+    .order-card h2 {
+        font-size: 23px;
+    }
+
+    footer {
+        padding: 16px 10px;
+        font-size: 11px;
+    }
+}
+
+
+@media (min-width: 376px) and (max-width: 768px) {
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 18px 25px;
+    }
+
+    main > img {
+        width: 65px;
+        height: 65px;
+        margin-right: 12px;
+    }
+
+    main > div {
+        flex: 1;
+        min-width: 220px;
+    }
+
+    .heading1 {
+        font-size: 32px;
+    }
+
+    .heading2 {
+        font-size: 12px;
+    }
+
+    .links {
+        width: 100%;
+        margin: 16px 0 0;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px 22px;
+    }
+
+    .links a {
+        font-size: 13px;
+    }
+
+    .Banner {
+        height: 400px;
+    }
+
+    .banner-text {
+        width: 90%;
+    }
+
+    .banner-text h1 {
+        font-size: 40px;
+    }
+
+    .banner-text p {
+        font-size: 18px;
+    }
+
+    .featured-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 30px 25px;
+        gap: 20px;
+    }
+
+    .item {
+        flex: 1 1 40%;
+        max-width: 330px;
+    }
+
+    .item img {
+        height: 180px;
+    }
+
+    .menu-story {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    #menu {
+        width: 100%;
+        border-right: none;
+        border-bottom: 2px solid #9a765f;
+    }
+
+    .menu-container {
+        gap: 10px;
+    }
+
+    #our-story {
+        width: 100%;
+        padding: 25px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #our-story p {
+        max-width: 180px;
+    }
+
+    #opening-hours {
+        width: 90%;
+    }
+
+    #contact-us {
+        width: 90%;
+        flex-direction: row;
+    }
+
+    .contact-card,
+    .order-card {
+        padding: 20px;
+    }
+}
+
+
+@media (min-width: 769px) {
+
+    main {
+        display: flex;
+        align-items: center;
+        padding: 15px 45px;
+    }
+
+    main > img {
+        width: 75px;
+        height: 75px;
+        margin-right: 18px;
+    }
+
+    main > div {
+        flex-shrink: 0;
+    }
+
+    .links {
+        margin-left: auto;
+    }
+
+    .Banner {
+        height: 500px;
+    }
+
+    .featured-container {
+        flex-direction: row;
+        padding: 35px 50px;
+    }
+
+    .menu-story {
+        flex-direction: row;
+        width: 92%;
+    }
+
+    #menu {
+        width: 60%;
+    }
+
+    #our-story {
+        width: 40%;
+    }
+
+    #opening-hours {
+        width: 92%;
+    }
+
+    #contact-us {
+        width: 92%;
+        flex-direction: row;
+    }
+}
